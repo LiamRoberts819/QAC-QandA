@@ -65,7 +65,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\deps\fontello-codes.a6d91207.css" />
+    <Content Include="css\deps\fontello-embedded.bd18a611.css" />
+    <Content Include="css\deps\fontello-ie7-codes.cd76f085.css" />
+    <Content Include="css\deps\fontello-ie7.204ecdbd.css" />
+    <Content Include="css\deps\fontello.904f20a1.css" />
+    <Content Include="css\deps\joyride-2.0.3.3c6e2604.css" />
+    <Content Include="css\deps\pagedown.ac56651a.css" />
+    <Content Include="css\deps\pickadate\classic.4bd071d3.css" />
+    <Content Include="css\deps\pickadate\classic.date.d4ff79fa.css" />
+    <Content Include="css\deps\prettify.d6c4142c.css" />
+    <Content Include="css\deps\select2.4b151b5c.css" />
+    <Content Include="css\font\fontello.svg" />
+    <Content Include="css\mamute.9ed6758a.css" />
+    <Content Include="home.aspx" />
+    <Content Include="news.aspx" />
     <Content Include="packages.config" />
+    <Content Include="masterpage.Master" />
+    <Content Include="css\font\fontello.eot" />
+    <Content Include="css\font\fontello.ttf" />
+    <Content Include="css\font\fontello.woff" />
+    <Content Include="css\font\museo_slab_300-webfont.eot" />
+    <Content Include="css\font\museo_slab_300-webfont.ttf" />
+    <Content Include="css\font\museo_slab_500-webfont.eot" />
+    <Content Include="css\font\museo_slab_500-webfont.ttf" />
+    <Content Include="css\font\proximanova-sbold-webfont.eot" />
+    <Content Include="css\font\proximanova-sbold-webfont.ttf" />
+    <Content Include="css\font\proximanova-webfont.eot" />
+    <Content Include="css\font\proximanova-webfont.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,10 +105,54 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="signIn.aspx" />
+    <Content Include="signUp.aspx" />
+    <Content Include="users.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signIn.aspx.cs">
+      <DependentUpon>signIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signIn.aspx.designer.cs">
+      <DependentUpon>signIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signUp.aspx.cs">
+      <DependentUpon>signUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signUp.aspx.designer.cs">
+      <DependentUpon>signUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
